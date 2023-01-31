@@ -25,7 +25,6 @@ function generate(num1,num2){
     }if(sommaResult % 2==0 && userParioDispari=="dispari"){
         const vincepcpari=("Il risultato è pari,vince il PC");
         console.log(vincepcpari);
-
     }else if(sommaResult % 2 !=0 && userParioDispari=="pari"){
         const vincepcdispari=("Il risultato è dispari,vince il PC");
         console.log(vincepcdispari);
