@@ -25,5 +25,4 @@ function generate(num1,num2){
     }
 
 }
-
 //DICHIARIAMO CHI HA VINTO
