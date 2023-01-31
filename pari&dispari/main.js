@@ -30,6 +30,8 @@ function generate(num1,num2){
         console.log(vincepcdispari);
     }
 
+    return sommaResult;
+
 
 }
 
