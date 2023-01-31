@@ -8,19 +8,25 @@ let arrayword=[];
 const word=arrayword.push(userword);
 //STAMPA UN CICLO CON SENSO GIUSTO
 for(let i=0;i < arrayword.length;i++){
-    const regularword=(arrayword.length[i]);
-    console.log(regularword);
+    const regularword=(arrayword[i]);
+    //console.log(regularword);
 }
+
 //STAMPA UN CICLO CON SENSO INVERTITO
 for(let i=0;i >= arrayword.length;i--){
-    const invertword = (arrayword.length[i]);
+    const invertword = (arrayword[i]);
     console.log(invertword);
 
-    if(regularword==invertword){
-        console.log("La parola è poligama")
+   
+    if(regularword==invertword){ 
+       const poligamo=("La parola è poligama");
+       console.log(poligamo);
     }else{
-        console.log("La parola non è poligama")
+        const nopoligamo=("La parola non è poligama");
+        console.log(nopoligamo);
     }
 }
+
 //CONFRONTA LE PAROLE OTTENUTE
+
 //SE SONO UGUALI LA PAROLA E' POLIGAMA
