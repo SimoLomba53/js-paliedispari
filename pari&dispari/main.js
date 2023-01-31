@@ -16,13 +16,27 @@ function generate(num1,num2){
     const sommaResult=(userNumber+pcRandomNumber);
     console.log(sommaResult);
     //VIENE STABILITO SE LA SOMMA E' PARI O DISPARI(FUNZIONE)
-    if(sommaResult % 2 == 0){
-        const risultatoPari=("Il risultato è pari");
-        console.log(risultatoPari);
-    }else{
-        const risultatoDispari=("Il risultato è dispari");
-        console.log(risultatoDispari);
+    if(sommaResult % 2 == 0 && userParioDispari=="pari"){
+        const risultatoPariuser=("Il risultato è pari,vince l'user");
+        console.log(risultatoPariuser);
+    }if(sommaResult % 2 !=0 && userParioDispari=="dispari"){
+        const risultatoDispariuser=("Il risultato è dispari,vince l'user");
+        console.log(risultatoDispariuser);
+    }if(sommaResult % 2==0 && userParioDispari=="dispari"){
+        const vincepcpari=("Il risultato è pari,vince il PC");
+        console.log(vincepcpari);
+
+    }else if(sommaResult % 2 !=0 && userParioDispari=="pari"){
+        const vincepcdispari=("Il risultato è dispari,vince il PC");
+        console.log(vincepcdispari);
     }
 
+
 }
+
 //DICHIARIAMO CHI HA VINTO
+//vittoria(risultatoPari,risultatoDispari);
+
+//function vittoria(pari,dispari){
+    //if()
+//}
